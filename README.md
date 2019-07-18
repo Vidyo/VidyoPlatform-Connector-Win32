@@ -1,16 +1,13 @@
-# vidyoplatform-connector-win32
+## Overview
+**vidyoplatform-connector-win32** is a [VidyoPlatform](https://vidyo.github.io/vidyoplatform.github.io) reference application highlighting how to integrate video chat into a native Windows Win32 app.
 
-##Overview
-vidyoplatform-connector-win32 is a windows desktop application built in c++. It contains a single project within the solution
+## Acquire VidyoClient Windows SDK
+Download the latest VidyoClient Windows SDK package for VS 2017 [here](https://static.vidyo.io/latest/package/VidyoClient-WinVS2017SDK.zip) and unzip it.
 
-##Acquire Framework
-1. Download the latest Vidyo.io Windows SDK package for VisualStudio 2013 (https://static.vidyo.io/latest/package/VidyoClient-WindowsSDK.zip) or for VisualStudio 2017 (https://static.vidyo.io/latest/package/VidyoClient-WinVS2017SDK.zip).
-2. Extract contents and locate '~\VidyoClient-WindowsSDK\samples' folder.
-> Note: VidyoClient SDK version 4.1.25.46 or later is required.
+## Clone Repository
+Navigate to the *VidyoClient-WinVS2017SDK/samples/* directory and clone the repository at that location:<br/>
+git clone https://github.com/Vidyo/vidyoplatform-connector-win32.git
 
 ## Build and Run Application
-1. Clone vidyoplatform-connector-win32 into folder located above, parallel to the 'win' folder.
-2. Open 'VidyoConnector15.sln' file in VisualStudio.
-3. Build solution.
-4. Run solution in debug or release mode.
-
+1. Open the solution *VidyoClient-WinVS2017SDK/samples/vidyoplatform-connector-win32/VidyoConnector15.sln* in Visual Studio 2017 or later.
+2. Build and run the application.
